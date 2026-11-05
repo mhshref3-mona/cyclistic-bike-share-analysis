@@ -1,0 +1,17 @@
+,value
+source,https://rstudio-pubs-static.s3.amazonaws.com/1411490_e71e5ba643c44e6ea9333d53b9b1b9e6.html
+official,https://divvybikes-marketing.lyft.net/system-data
+license,https://divvybikes.com/data-license-agreement
+raw_count,5552092
+excluded,148401
+clean_count,5403691
+casual,1920972
+member,3482719
+casual_share,0.3554925698009009
+member_share,0.6445074301990991
+weekend_c,714891
+weekend_m,813144
+weekend_c_share,0.3721506612277535
+weekend_m_share,0.2334796462189456
+summer_c_share,0.6081561834321375
+summer_m_share,0.48651757434349424
