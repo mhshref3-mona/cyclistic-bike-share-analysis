@@ -4,7 +4,7 @@
 
 > **Transparency / attribution:** This educational project **reanalyzes published aggregate tables** from an independently authored Cyclistic/Divvy analysis; it is **not** an original processing of the complete individual-trip dataset. The underlying aggregation and exclusions have not been independently verified against the source CSV files. Please read the [methodology and provenance note](documentation/PROVENANCE.md) before interpreting or sharing the results.
 
-[**Read the English case-study report (PDF)**](reports/Cyclistic_Case_Study_EN.pdf) · [Arabic report (PDF)](reports/Cyclistic_Case_Study_AR.pdf) · [Python notebook](notebooks/Cyclistic_Analysis.ipynb)
+[**Read the English case-study report**](reports/Cyclistic_Case_Study_EN.md) · [Arabic report](reports/Cyclistic_Case_Study_AR.md) · [Python notebook](notebooks/Cyclistic_Analysis.ipynb)
 
 ## Business problem
 
@@ -24,15 +24,15 @@ These are **trip counts, not unique rider counts**. Patterns are consistent with
 
 ## Visualizations
 
-![Trips by rider group](figures/fig1_rider_mix.png)
+![Trips by rider group](figures/fig1_rider_mix.svg)
 
-![Mean trip duration](figures/fig2_duration.png)
+![Mean trip duration](figures/fig2_duration.svg)
 
-![Weekend share](figures/fig5_weekend_share.png)
+![Weekend share](figures/fig5_weekend_share.svg)
 
-![Trips by weekday](figures/fig3_weekday_volume.png)
+![Trips by weekday](figures/fig3_weekday_volume.svg)
 
-![Monthly ride patterns](figures/fig4_monthly_volume.png)
+![Monthly ride patterns](figures/fig4_monthly_volume.svg)
 
 ## Workflow (Ask → Prepare → Process → Analyze → Share → Act)
 
@@ -73,8 +73,8 @@ Cyclistic_GitHub_Portfolio/
 ├── documentation/
 │   └── PROVENANCE.md
 ├── reports/
-│   ├── Cyclistic_Case_Study_EN.pdf
-│   └── Cyclistic_Case_Study_AR.pdf
+│   ├── Cyclistic_Case_Study_EN.md
+│   └── Cyclistic_Case_Study_AR.md
 ├── notebooks/
 │   └── Cyclistic_Analysis.ipynb
 ├── figures/
@@ -90,3 +90,6 @@ Cyclistic_GitHub_Portfolio/
 - **Educational task:** Google Data Analytics Professional Certificate, *Cyclistic Case Study 1: How does a bike-share navigate speedy success?*
 
 **Public release note:** Do not upload private data, rider identifiers, or unlicensed raw Divvy datasets. Attribute the prior analyst and preserve the stated uncertainty. For a fully independent portfolio project, repeat the pipeline on a selected and audited 12-month window of official trip CSVs and update the report and notebook accordingly.
+## Downloadable PDF copies
+
+The original PDF reports are available in the accompanying ChatGPT project package, but this repository hosts readable **Markdown** report versions so the analysis and figures can be viewed directly on GitHub.
